@@ -642,3 +642,5 @@ jsonresume:
   - languages
   - interests
   - references
+
+disable_disk_cache: true

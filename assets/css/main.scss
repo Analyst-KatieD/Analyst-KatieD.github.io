@@ -16,9 +16,9 @@ $max-content-width: {{ site.max_width }};
 }
 
 @font-face {
-  font-family: 'EyesomeRegular';
-  src: url('/assets/fonts/eyesome/EyesomeRegular.woff2') format('woff2'),
-       url('/assets/fonts/eyesome/EyesomeRegular.woff') format('woff');
+  font-family: 'RetroSuperSkinny';
+  src: url('/assets/fonts/RetroSuperSkinny/RetroSuperSkinny.woff2') format('woff2'),
+       url('/assets/fonts/RetroSuperSkinny/RetroSuperSkinny.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,7 +83,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .about-last-name {
-  font-family: 'EyesomeRegular', sans-serif;
+  font-family: 'RetroSuperSkinny', sans-serif;
   font-size: 3rem;
   letter-spacing: 1px;
   display: inline-block;

@@ -1,5 +1,7 @@
 {
   "name": "Jekyll Dev Container",
+  "remoteUser": "katied",
+  "containerUser": "katied",
   "build": {
     "dockerfile": "../Dockerfile",
     "context": ".."

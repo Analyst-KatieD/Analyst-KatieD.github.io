@@ -1,0 +1,47 @@
+- title: "Professional Summary"
+  type: "simple"
+  contents: |
+    Marketing Analyst with 7+ years of experience in the telecommunications industry bridging marketing, data, and product strategy to deliver measurable business impact. Skilled in SQL, BigQuery, and Looker Studio, with proven ability to define KPIs, design reporting frameworks, and provide actionable insights to executives.
+
+- title: "Core Skills"
+  type: "list"
+  contents:
+    - "Analytics & Data Tools: SQL, BigQuery, Python, Looker Studio, Tableau, Excel/Google Sheets"
+    - "Analytical Techniques: Data Cleaning & Transformation, Statistical & Predictive Modeling"
+    - "Business & Marketing: KPI Development & Reporting Strategy, Marketing Analytics & Market Research"
+    - "Communication: Data Storytelling & Executive Presentations, Cross-Functional Team Leadership"
+
+- title: "Experience"
+  type: "time_table"
+  contents:
+    - title: "Marketing Product Analyst"
+      institution: "Arvig"
+      year: "2022 – Present"
+      description:
+        - "Develop and deliver interactive dashboards in Looker Studio using BigQuery and Google Cloud pipelines, enabling leadership to make data-driven decisions on product, sales, and pricing strategies."
+        - "Led SKU reduction and pricing optimization initiative, streamlining 100+ internet products, updating 25,000+ customer accounts, and saving $200K+ monthly in collective customer costs."
+        - "Conduct deep-dive analyses into customer behavior and market performance, translating findings into recommendations that directly influence customer retention and acquisition."
+    - title: "Marketing Technologist"
+      institution: "Arvig"
+      year: "2019 – 2022"
+      description:
+        - "Designed and maintained cross-channel marketing reports by building automated pipelines in BigQuery and visualizing performance trends in Google Data Studio."
+        - "Collaborated with sales and product stakeholders to align reporting metrics with organizational goals and ensure consistent data accuracy."
+    - title: "Sales Support"
+      institution: "Arvig Media"
+      year: "2016 – 2019"
+      description:
+        - "Supported digital marketing sales team by building proposals for complex campaigns, identifying technical requirements, and ensuring smooth execution on Google and Facebook platforms."
+        - "Managed multiple projects simultaneously, streamlined onboarding for new initiatives, and delivered technical guidance to improve client outcomes."
+
+- title: "Education"
+  type: "time_table"
+  contents:
+    - title: "Master of Science, Data Analytics"
+      institution: "Western Governors University (Online)"
+      year: "2021 – 2023"
+      description:
+        - "Coursework: Data Cleaning, Chi-Square Testing, Multiple & Logistic Regression, Naive Bayes, Random Forests, Clustering (K-Means, PCA), Market Basket Analysis, Tableau Reporting, Advanced SQL"
+    - title: "Bachelor of Science, Business Administration (Marketing Emphasis)"
+      institution: "Argosy University (Online)"
+      year: "2009 – 2013"

@@ -5,7 +5,7 @@ title: resume
 nav: true
 nav_order: 5
 resume_pdf: Katie-Dunbar-Resume.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Confident, data-driven problem solver with a passion for turning insights into action.
 toc:
   sidebar: left
 ---

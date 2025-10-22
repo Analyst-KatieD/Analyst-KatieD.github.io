@@ -1,36 +1,26 @@
----
-layout: default
----
+<article>
+  <div class="resume">
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {{ page.title }}
-      {% if page.resume_pdf %}
-        <a
-          {% if page.resume_pdf contains '://' %}
-            href="{{ page.resume_pdf }}"
-          {% else %}
-            href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
-      {% endif %}
-    </h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
+    {% for entry in site.data.resume %}
 
-  <article>
-    <div class="resume">
-      {% for entry in site.data.resume %}
+      {% if entry.title == "Professional Summary" %}
+        <section class="resume-summary-card">
+          <p>{{ entry.contents }}</p>
+        </section>
+
+      {% elsif entry.title == "Core Skills" %}
+        <section class="resume-skills">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div class="skills-pill-container">
+            {% for skill in entry.contents %}
+              <span class="skill-pill">{{ skill }}</span>
+            {% endfor %}
+          </div>
+        </section>
+
+      {% else %}
         <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
+        <div class="card mt-3 p-3 resume-card">
           <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
           <div>
             {% if entry.type == 'list' %}
@@ -48,7 +38,10 @@ layout: default
             {% endif %}
           </div>
         </div>
-      {% endfor %}
-    </div>
-  </article>
-</div>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+</article>

@@ -4,12 +4,18 @@
     Marketing Analyst with 7+ years of experience in the telecommunications industry bridging marketing, data, and product strategy to deliver measurable business impact. Skilled in SQL, BigQuery, and Looker Studio, with proven ability to define KPIs, design reporting frameworks, and provide actionable insights to executives.
 
 - title: "Core Skills"
-  type: "list"
+  type: "pills"
   contents:
-    - "Analytics & Data Tools: SQL, BigQuery, Python, Looker Studio, Tableau, Excel/Google Sheets"
-    - "Analytical Techniques: Data Cleaning & Transformation, Statistical & Predictive Modeling"
-    - "Business & Marketing: KPI Development & Reporting Strategy, Marketing Analytics & Market Research"
-    - "Communication: Data Storytelling & Executive Presentations, Cross-Functional Team Leadership"
+    - SQL
+    - BigQuery
+    - Python
+    - Looker Studio
+    - Tableau
+    - KPI Development
+    - Predictive Modeling
+    - Data Storytelling
+    - Marketing Analytics
+    - Cross-Functional Leadership
 
 - title: "Experience"
   type: "time_table"

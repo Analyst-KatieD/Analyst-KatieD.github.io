@@ -235,3 +235,66 @@ ul.timeline li::before {
   border-radius: 10px;
   padding: 1.75rem;
 }
+/* ===== SUMMARY SPLIT LAYOUT WITH IMAGE ===== */
+
+.split-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // gap: 2rem;
+}
+
+.split-summary .summary-text {
+  flex: 1.2;
+}
+
+.split-summary .summary-image {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+.split-summary .summary-image img {
+  width: 220;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 50% / 38%; /* soft oval */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  border: 3px solid #B84A7C22; /* subtle berry border */
+}
+
+/* Mobile behavior: stack vertically */
+@media (max-width: 768px) {
+  .split-summary {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .split-summary .summary-image img {
+    width: 200px;
+    height: 245px;
+  }
+}
+/* === HERO SUMMARY SPACING (header hidden) === */
+
+/* Summary section should be clean and minimal */
+.resume-summary-card {
+  margin-top: 0.4rem !important;
+  margin-bottom: 1.2rem !important;
+}
+
+/* Reduce paragraph spacing inside summary */
+.resume-summary-card p {
+  margin-top: 0 !important;
+  margin-bottom: 0.6rem !important;
+  line-height: 1.5;
+}
+
+/* Pull Skills closer */
+.resume-skills {
+  margin-top: 0.2rem !important;
+}
+
+/* (Keep your existing split-summary + image CSS) */
+
+

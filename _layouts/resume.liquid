@@ -30,9 +30,14 @@ class="float-right"
     {% for entry in site.data.resume %}
 
       {% if entry.title == "Professional Summary" %}
-        <section class="resume-summary-card">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <p>{{ entry.contents }}</p>
+        {% comment %} <h3 class="card-title font-weight-medium">{{ entry.title }}</h3> {% endcomment %}
+        <section class="resume-summary-card split-summary">
+          <div class="summary-text">
+            <p>{{ entry.contents }}</p>
+          </div>
+          <div class="summary-image">
+            <img src="{{ '/assets/img/KatieD-high-res-32.jpg' | relative_url }}" alt="Profile photo">
+          </div>
         </section>
 
       {% elsif entry.title == "Core Skills" %}

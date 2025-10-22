@@ -27,8 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+For the past six years, I’ve partnered with executives and cross-functional leaders to solve ambiguous problems, uncover revenue opportunities, and bring clarity to messy, confusing data. I step in when there’s a big question on the table — `Why is growth slowing? Where should we invest? Which customers matter most?` — and structure the path forward.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My approach is simple: **ask sharp questions, find the signal in the noise, and translate data into narratives that drive action.** I don’t hide behind jargon or build models no one will use. I listen, challenge assumptions, dig into the truth of the problem, and deliver insights leaders can act on `immediately`.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Whether the work calls for segmentation, forecasting, experimentation, pricing analysis, or a dashboard that aligns a team around a shared truth — my goal is always the same: **clarity, direction, and measurable impact.**
+
+I’m at my best when the path is unclear, the data is messy, and the business needs both structure `and` strategy. I bridge the gap between technical analytics and real-world decision-making — helping teams move forward with confidence.
+
+### What Teams Count on Me For
+- **Turning ambiguity into structure** — clarify the real question, define the levers, frame the decisions
+- **Finding insights that matter** — separate noise from signal, uncover opportunities, and tell the story
+- **Driving business outcomes** — revenue clarity, customer understanding, and confident decision-making
+- **Communicating without the jargon** — clear narratives that align stakeholders and inspire action
+- **End-to-end analytics** — exploration, modeling, experimentation, visualization, and automation
+

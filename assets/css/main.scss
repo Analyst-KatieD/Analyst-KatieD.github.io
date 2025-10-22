@@ -88,3 +88,16 @@ $max-content-width: {{ site.max_width }};
   letter-spacing: 1px;
   display: inline-block;
 }
+
+/* ===== HEADER UPDATE FONT FOR NAME ===== */
+.navbar-brand .about-first-name {
+  font-size: 1.5rem;
+  margin-right: 0.25rem;
+}
+
+.navbar-brand .about-last-name {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  position: relative;
+  top: -2px;
+}

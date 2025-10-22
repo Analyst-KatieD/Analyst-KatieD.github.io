@@ -6,6 +6,24 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+@font-face {
+  font-family: 'EyesomeScript';
+  src: url('/assets/fonts/eyesome/EyesomeScript.woff2') format('woff2'),
+       url('/assets/fonts/eyesome/EyesomeScript.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EyesomeRegular';
+  src: url('/assets/fonts/eyesome/EyesomeRegular.woff2') format('woff2'),
+       url('/assets/fonts/eyesome/EyesomeRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import
   "variables",
   "themes",
@@ -23,3 +41,50 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ===== HERO SECTION CUSTOM STYLES ===== */
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: 1.5rem; /* space below image */
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-buttons {
+  margin-top: 1.2rem;
+}
+
+.hero-buttons .btn {
+  margin: 0 0.4rem;
+}
+
+.desc {
+  font-size: 1.25rem;   /* slightly larger — bump to 1.35rem or 1.5rem if you want bigger */
+  font-weight: 600;     /* semi-bold; change to 700 for fully bold */
+  font-style: italic;
+  line-height: 1.4;     /* improves readability */
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ===== ABOUT SECTION NAME FONTS ===== */
+.about-first-name {
+  font-family: 'EyesomeScript', cursive;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.about-last-name {
+  font-family: 'EyesomeRegular', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  display: inline-block;
+}

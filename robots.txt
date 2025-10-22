@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Analyst-KatieD.github.io/al-folio/sitemap.xml
+Sitemap: https://Analyst-KatieD.github.io/sitemap.xml

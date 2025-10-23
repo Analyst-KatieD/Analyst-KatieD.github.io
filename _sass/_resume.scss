@@ -119,7 +119,7 @@ td.list-group-category {
   margin-bottom: 0.5rem;
 }
 
-td.list-group-category-icon {
+td.list-group-category-icon  {
   font-size: 0.8rem;
   color: var(--global-theme-color);
   width: 1.4rem;
@@ -295,6 +295,65 @@ ul.timeline li::before {
   margin-top: 0.2rem !important;
 }
 
-/* (Keep your existing split-summary + image CSS) */
+/* --- Resume Page Modern Layout Upgrades --- */
+
+/* Wider modern layout */
+.container {
+  width: 80vw;
+  max-width: 1400px;
+}
+
+/* Section headers */
+.resume .section-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 2.2rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+/* Soft divider line after section titles */
+.resume .section-title::after {
+  content: "";
+  display: block;
+  width: 65px;
+  margin-top: 6px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+/* Improve resume readability */
+.resume .card-text {
+  line-height: 1.6;
+  font-size: 0.96rem;
+}
+
+/* Better bullet spacing */
+.resume ul.items li {
+  margin-bottom: 6px;
+}
+
+/* Job title + company hierarchy */
+.resume .title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.resume .institution td:last-child {
+  font-weight: 500;
+}
+
+/* Spacing between job entries */
+.list-group-item {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
+/* Optional: nicer link hover */
+.resume a:hover {
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+
 
 

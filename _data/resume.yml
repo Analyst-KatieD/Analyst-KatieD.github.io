@@ -1,14 +1,16 @@
 - title: "Professional Summary"
   type: "simple"
   contents: |
-    Marketing Analyst with 7+ years of experience in the telecommunications industry bridging marketing, data, and product strategy to deliver measurable business impact. Skilled in SQL, BigQuery, and Looker Studio, with proven ability to define KPIs, design reporting frameworks, and provide actionable insights to executives.
+    Hello, and thanks for stopping by! I’m Katie DelValle, a Product Marketing Analyst who thrives in complex, fast-moving environments. I’m known for learning quickly, untangling messy problems, and turning chaos into clarity. My passion is using data to illuminate the path forward—bringing structure, strategy, and simplicity to challenges that don’t come with easy answers.
+    <br><br>
+    If you’re looking for someone who can tackle the tough questions and deliver insights that drive action, let’s connect. Reach out by email or send me a message on LinkedIn—I’d love to start a conversation.
 
 - title: "Core Skills"
   type: "pills"
   contents:
     - SQL
     - BigQuery
-    - Python
+    - Pythonbundle exec jekyll serve --livereload
     - Looker Studio
     - Tableau
     - KPI Development

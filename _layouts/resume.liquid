@@ -42,7 +42,7 @@ class="float-right"
 
       {% elsif entry.title == "Core Skills" %}
         <section class="resume-skills">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <h3 class="card-title font-weight-medium, section-title">{{ entry.title }}</h3>
           <div class="skills-pill-container">
             {% for skill in entry.contents %}
               <span class="skill-pill">{{ skill }}</span>
@@ -53,7 +53,7 @@ class="float-right"
       {% else %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3 resume-card">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <h3 class="card-title font-weight-medium, section-title">{{ entry.title }}</h3>
           <div>
             {% if entry.type == 'list' %}
               {% include resume/list.liquid %}

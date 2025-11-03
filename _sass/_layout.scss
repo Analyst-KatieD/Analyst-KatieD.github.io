@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -58,9 +58,9 @@ body.sticky-bottom-footer {
   margin-bottom: 0.35rem;      /* less space under descriptions */
 }
 
-.project-item img {
-  margin-bottom: 0.6rem;
-}
+// .project-item img {
+//   margin-bottom: 0.6rem;
+// }
 
 /*****************************************************************************
 * About Hero Section

@@ -19,6 +19,8 @@ strong {
   color: var(--global-text-color);
 }
 
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -178,8 +180,9 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 0rem .75rem .75rem .75rem;
   }
 }
 

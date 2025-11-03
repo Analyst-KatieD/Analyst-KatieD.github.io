@@ -1,81 +1,103 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Logistic Classification
+description: 
+img: assets/img/PredictingGoldMembershipPurchases.jpg
 importance: 1
 category: work
+giscus_comments: false
+---
+
+## 🧠 Project Overview
+---
+<div class="row justify-content-sm-center">
+
+  <!-- LEFT COLUMN (2/3 width) -->
+  <div class="col-sm-8 mt-3 mt-md-0" markdown="1">
+
+  <h3>Business Context</h3> 
+  The marketing team wanted to promote a discounted **Gold Membership** — offering a **20% discount on all purchases for $499** (down from $999).  
+  To minimize campaign costs, leadership requested a predictive model to classify which existing customers were most likely to purchase the offer.
+
+  <h3>Objectives</h3> 
+  - Predict the likelihood of a customer purchasing the Gold Membership  
+  - Identify key features that drive positive purchase responses  
+  - Generate a prioritized call list of high-potential customers for the outbound campaign  
+
+  <strong>Data Source:</strong>
+  [Kaggle Superstore Marketing Campaign Dataset](https://www.kaggle.com/datasets/ahsan81/superstore-marketing-campaign-dataset)
+
+  </div>
+
+  <!-- RIGHT COLUMN (1/3 width) -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/PredictingGoldMembershipPurchases.jpg" title="Predicting Gold Memberships" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+</div>
 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### 🔍 Analytical Approach
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+1. **Exploratory Analysis** — Assessed demographic, behavioral, and spending trends among customers.  
+2. **Data Cleaning** — Addressed missing values, encoded categorical variables, and normalized features.  
+3. **Feature Engineering** — Created variables representing engagement and past purchase activity.  
+4. **Data Splitting** — Divided the dataset into training and test sets for model evaluation.  
+5. **Model Training** — Built a logistic regression model to classify positive responses.  
+6. **Optimization** — Tuned hyperparameters and evaluated feature importance.  
+7. **Reporting** — Exported predictions and insights to feed a Looker Studio dashboard.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+📓 **Jupyter Notebook:** [View Notebook](#) <!-- Replace with actual link -->
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 💼 Executive Summary
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#### Customer Profile — Most Likely to Buy
+Customers most likely to purchase the Gold Membership typically:
+- Have a higher average annual purchase frequency  
+- Fall within a mid-to-high income range  
+- Previously responded positively to marketing campaigns  
+- Show strong loyalty through consistent multi-year purchases  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+These attributes define the **target persona** for future marketing campaigns.
 
-{% raw %}
+#### Predicted Outcomes
+- **Predicted Buyers:** X% of existing customers (≥60% probability)  
+- **Expected Membership Revenue:** `$X × $499` = `$Y total`  
+- **Estimated Campaign Profit:**  
+  - Membership Revenue − Projected Discounts = **Net Campaign Profit**
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Lower-likelihood customers (<60%) were analyzed for their historical purchase patterns to inform **alternative retention strategies**.
 
-{% endraw %}
+---
+
+### 📊 Dashboard & Reporting
+
+An **interactive Looker Studio dashboard** was designed to help both leadership and call center teams monitor campaign performance and visualize insights in real time.
+
+#### Section 1 – Campaign KPIs
+- Total Gold Memberships purchased in prior year  
+- Average number of purchases per member  
+- Average spend per member  
+- Calculated profit per membership tier  
+- Insight: Demonstrated that membership status was a stronger predictor of increased spending than other demographic factors.
+
+#### Section 2 – Buyer Profile
+- Ranked features influencing a positive response  
+- Share of total customer base matching high-likelihood features  
+
+#### Section 3 – Predicted Results & Real-Time Progress
+- Gauge chart displaying predicted vs. actual memberships sold  
+- Linked spreadsheet for live call center tracking  
+- Dynamic revenue, discount, and profit calculations  
+
+---
+
+### 🧾 Key Takeaway
+By combining data-driven insights with campaign strategy, this model enables the marketing team to **target customers with the highest likelihood to buy**, reduce wasted spend, and accurately **forecast revenue and campaign ROI**.
+
+---
+
+**Tags:** predictive analytics · marketing optimization · logistic regression · customer segmentation · campaign strategy

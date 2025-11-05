@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Logistic Classification
+title: Predicting Gold Memberships
 description: 
 img: assets/img/PredictingGoldMembershipPurchases.jpg
 importance: 1
@@ -8,7 +8,7 @@ category: work
 giscus_comments: false
 ---
 
-## 🧠 Project Overview
+## Project Overview
 ---
 <div class="row justify-content-sm-center">
 
@@ -16,8 +16,7 @@ giscus_comments: false
   <div class="col-sm-8 mt-3 mt-md-0" markdown="1">
 
   <h3>Business Context</h3> 
-  The marketing team wanted to promote a discounted **Gold Membership** — offering a **20% discount on all purchases for $499** (down from $999).  
-  To minimize campaign costs, leadership requested a predictive model to classify which existing customers were most likely to purchase the offer.
+  The marketing team wanted to promote a discounted **Gold Membership** — offering a **20% discount on all purchases for $499** (down from $999).  To minimize campaign costs, leadership requested a predictive model to classify which existing customers were most likely to purchase the offer.
 
   <h3>Objectives</h3> 
   - Predict the likelihood of a customer purchasing the Gold Membership  
@@ -38,7 +37,7 @@ giscus_comments: false
 
 ---
 
-### 🔍 Analytical Approach
+## Analytical Approach
 
 1. **Exploratory Analysis** — Assessed demographic, behavioral, and spending trends among customers.  
 2. **Data Cleaning** — Addressed missing values, encoded categorical variables, and normalized features.  
@@ -48,13 +47,13 @@ giscus_comments: false
 6. **Optimization** — Tuned hyperparameters and evaluated feature importance.  
 7. **Reporting** — Exported predictions and insights to feed a Looker Studio dashboard.
 
-📓 **Jupyter Notebook:** [View Notebook](#) <!-- Replace with actual link -->
+**Jupyter Notebook:** [View Notebook](https://github.com/Analyst-KatieD/kaggle-superstore-marketing/blob/main/Kaggle_Superstore_Marketing_Campaign.ipynb) <!-- Replace with actual link -->
 
 ---
 
-### 💼 Executive Summary
+## Executive Summary
 
-#### Customer Profile — Most Likely to Buy
+### Customer Profile — Most Likely to Buy
 Customers most likely to purchase the Gold Membership typically:
 - Have a higher average annual purchase frequency  
 - Fall within a mid-to-high income range  
@@ -63,7 +62,7 @@ Customers most likely to purchase the Gold Membership typically:
 
 These attributes define the **target persona** for future marketing campaigns.
 
-#### Predicted Outcomes
+### Predicted Outcomes
 - **Predicted Buyers:** X% of existing customers (≥60% probability)  
 - **Expected Membership Revenue:** `$X × $499` = `$Y total`  
 - **Estimated Campaign Profit:**  
@@ -73,29 +72,29 @@ Lower-likelihood customers (<60%) were analyzed for their historical purchase pa
 
 ---
 
-### 📊 Dashboard & Reporting
+## Dashboard & Reporting
 
 An **interactive Looker Studio dashboard** was designed to help both leadership and call center teams monitor campaign performance and visualize insights in real time.
 
-#### Section 1 – Campaign KPIs
+### Section 1 – Campaign KPIs
 - Total Gold Memberships purchased in prior year  
 - Average number of purchases per member  
 - Average spend per member  
 - Calculated profit per membership tier  
 - Insight: Demonstrated that membership status was a stronger predictor of increased spending than other demographic factors.
 
-#### Section 2 – Buyer Profile
+### Section 2 – Buyer Profile
 - Ranked features influencing a positive response  
 - Share of total customer base matching high-likelihood features  
 
-#### Section 3 – Predicted Results & Real-Time Progress
+### Section 3 – Predicted Results & Real-Time Progress
 - Gauge chart displaying predicted vs. actual memberships sold  
 - Linked spreadsheet for live call center tracking  
 - Dynamic revenue, discount, and profit calculations  
 
 ---
 
-### 🧾 Key Takeaway
+## Key Takeaway
 By combining data-driven insights with campaign strategy, this model enables the marketing team to **target customers with the highest likelihood to buy**, reduce wasted spend, and accurately **forecast revenue and campaign ROI**.
 
 ---

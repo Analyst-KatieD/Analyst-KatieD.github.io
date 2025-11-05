@@ -72,16 +72,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-logistic-classification",
-          title: 'Logistic Classification',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-predicting-gold-memberships",
+          title: 'Predicting Gold Memberships',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/predicting-gold-memberships/";
             },},{
         id: 'social-email',
         title: 'email',

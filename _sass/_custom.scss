@@ -181,4 +181,29 @@ h4, .h4 {
     padding: 1rem 1.2rem;
   }
 }
+.viz-placeholder {
+  padding: 1rem;
+  background: #faf9f6;
+  text-align: center;
+  border: 1px dashed #d7d5d2;
+  font-style: italic;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
 
+/* Gains Curve Styling */
+.tipping-graphic {
+  max-width: 750px;
+  margin: 20px auto;
+  display: block;
+}
+
+.caption-text {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-left: 3px solid #ffb3c1; /* matches al-folio blush */
+  display: inline-block;
+}

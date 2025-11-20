@@ -94,9 +94,7 @@ Understanding which customers are most likely to respond enables targeted acquis
 
 ---
 
-### Predicted Outcomes
-
-## Predicted Outcomes — Smart Campaign Sizing
+### Predicted Outcomes — Smart Campaign Sizing
 
 <div class="predicted-outcomes">
 
@@ -108,9 +106,14 @@ The full campaign initially consisted of <strong>2,240 customers</strong>. Using
 However, targeting only those 617 customers may limit total revenue potential. To capture more opportunity while staying efficient, we used the <strong>Gains Curve</strong> to determine the most effective expansion range.
 </p>
 
-<div class="callout-arrow">
-  Expanding target outreach to <strong>~40% of the customer base (896 customers)</strong> allows us to capture 
-  <strong>nearly 80% of all likely buyers</strong>, while still <strong>reducing campaign volume by 60%</strong>.
+{% include figure.liquid path="assets/img/CampaignGainsCurve.jpg" 
+   title="Gains Curve – Campaign Tipping Point" 
+   class="img-fluid rounded z-depth-1 tipping-graphic" %}
+
+<div class="caption-text">
+  <strong>✔ Strategic Insight:</strong> Reaching the top <b>40% of customers</b>  
+  (896 individuals) captures nearly <b>80% of all buyers</b> — while still  
+  reducing total campaign size by <b>over 60%</b>.
 </div>
 
 <h4>Why This Matters</h4>
@@ -134,7 +137,7 @@ However, targeting only those 617 customers may limit total revenue potential. T
     <tr>
       <td><strong>Gains-Curve Optimized</strong></td>
       <td>896</td>
-      <td>&asymp; 80% of all likely buyers</td>
+      <td>&asymp; 75% of all likely buyers</td>
       <td><strong>Best balance of cost and impact</strong></td>
     </tr>
     <tr>
@@ -166,7 +169,7 @@ To maximize both campaign ROI and conversion impact, outreach should focus on th
 </p>
 
 <ul>
-  <li>Large enough to capture <strong>~80% of likely buyers</strong></li>
+  <li>Large enough to capture <strong>~75% of likely buyers</strong></li>
   <li>Small enough to <strong>avoid wasted effort & budget</strong></li>
   <li>Backed by predictive modeling and conversion probability</li>
 </ul>
@@ -177,6 +180,11 @@ This ensures that marketing spend scales in proportion to conversion potential �
 </p>
 
 </div>
+
+
+
+
+
 
 
 ---

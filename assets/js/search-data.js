@@ -72,11 +72,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-predicting-gold-memberships",
           title: 'Predicting Gold Memberships',
           description: "",

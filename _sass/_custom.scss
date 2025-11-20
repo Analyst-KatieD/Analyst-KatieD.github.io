@@ -28,3 +28,157 @@ h4, .h4 {
     color: var(--global-text-color-light); /* softer gray tone */
   letter-spacing: 0.5px;
 }
+
+/* EXECUTIVE SUMMARY */
+.executive-summary {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-left {
+  background: #faf9f6;
+  border-radius: 12px;
+  padding: 1.4rem;
+  border: 1px solid #e8e6e3;
+}
+
+.persona-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.persona-table th, .persona-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.persona-table th {
+  background: #f5f4f2;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.persona-image {
+  width: 65%;           /* reduced from 85% */
+  max-width: 280px;     /* prevents overly large images on wide screens */
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.10);
+}
+
+/* optional – align table & image vertically */
+.profile-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* improve spacing between columns */
+.executive-summary {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .persona-image {
+    width: 50%;
+    max-width: 180px;
+    margin-top: 1rem;
+  }
+}
+/* Predicted Outcomes section wrapper */
+.predicted-outcomes {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+/* Highlighted arrow-style callout */
+.callout-arrow {
+  margin: 1rem 0 1.5rem 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid var(--global-theme-color);
+  background: #faf9f6;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Strategy comparison table */
+.strategy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.strategy-table th,
+.strategy-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid #e6e4e0;
+  vertical-align: top;
+}
+
+.strategy-table th {
+  background-color: #f5f4f2;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+}
+
+.strategy-table tbody tr:nth-child(even) {
+  background-color: #fbfbfa;
+}
+
+.strategy-table tbody tr:hover {
+  background-color: #f3f2ef;
+}
+
+/* Responsive tweak for narrow screens */
+@media (max-width: 768px) {
+  .strategy-table th,
+  .strategy-table td {
+    font-size: 0.85rem;
+  }
+}
+/* Recommendation Callout Box */
+.recommendation-box {
+  background: #faf9f6;
+  border: 1px solid #e6e4e0;
+  border-left: 4px solid var(--global-theme-color);
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  margin: 1.8rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.recommendation-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.recommendation-box ul {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.recommendation-bottom {
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+
+/* Small screen tweak */
+@media (max-width: 768px) {
+  .recommendation-box {
+    font-size: 0.92rem;
+    padding: 1rem 1.2rem;
+  }
+}
+

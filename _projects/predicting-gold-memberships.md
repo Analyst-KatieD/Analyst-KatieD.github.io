@@ -54,48 +54,130 @@ giscus_comments: false
 ## Executive Summary
 
 ### Customer Profile — Most Likely to Buy
-Customers most likely to purchase the Gold Membership typically:
-- Have a higher average annual purchase frequency  
-- Fall within a mid-to-high income range  
-- Previously responded positively to marketing campaigns  
-- Show strong loyalty through consistent multi-year purchases  
 
-These attributes define the **target persona** for future marketing campaigns.
+Understanding which customers are most likely to respond enables targeted acquisition strategy and efficient campaign resource allocation. Through model predictions and behavioral analysis, a clear high-value customer segment emerged — one that spends significantly more, shows higher engagement across multiple channels, and demonstrates stronger purchase intent than the full customer base.
+
+<br>
+
+<div class="row executive-summary">
+
+  <!-- LEFT: Persona Table -->
+  <div class="col-sm-7 profile-left">
+
+  <h4> “The Premium Multichannel Shopper” </h4>
+
+  <table class="persona-table">
+    <thead>
+      <tr>
+        <th>Attribute</th>
+        <th>Lift vs Population</th>
+        <th>Insight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><b>High Income</b></td><td>+34%</td><td>Greater purchasing power</td></tr>
+      <tr><td><b>Premium Product Spend</b></td><td>+120–180%</td><td>Wines, meats, fruits, sweets</td></tr>
+      <tr><td><b>Multi-channel Buyer</b></td><td>+115%</td><td>Catalog + store + online channels</td></tr>
+      <tr><td><b>Recent Activity</b></td><td>–42% Recency Days</td><td>Recently engaged customers</td></tr>
+      <tr><td><b>Smaller Households</b></td><td>–59% Kids at Home</td><td>Higher discretionary spending</td></tr>
+    </tbody>
+  </table>
+
+  </div>
+
+  <!-- RIGHT: Persona Image -->
+  <div class="col-sm-5 text-center">
+    <img src="/assets/img/business-person.jpg" alt="Persona Image" class="persona-image shadow-sm">
+  </div>
+
+</div> <!-- END ROW -->
+
+---
 
 ### Predicted Outcomes
-- **Predicted Buyers:** X% of existing customers (≥60% probability)  
-- **Expected Membership Revenue:** `$X × $499` = `$Y total`  
-- **Estimated Campaign Profit:**  
-  - Membership Revenue − Projected Discounts = **Net Campaign Profit**
 
-Lower-likelihood customers (<60%) were analyzed for their historical purchase patterns to inform **alternative retention strategies**.
+## Predicted Outcomes — Smart Campaign Sizing
+
+<div class="predicted-outcomes">
+
+<p>
+The full campaign initially consisted of <strong>2,240 customers</strong>. Using the logistic regression model and an optimized threshold of <strong>0.55</strong>, we identified <strong>617 customers</strong> with a high likelihood to purchase a Gold Membership.
+</p>
+
+<p>
+However, targeting only those 617 customers may limit total revenue potential. To capture more opportunity while staying efficient, we used the <strong>Gains Curve</strong> to determine the most effective expansion range.
+</p>
+
+<div class="callout-arrow">
+  Expanding target outreach to <strong>~40% of the customer base (896 customers)</strong> allows us to capture 
+  <strong>nearly 80% of all likely buyers</strong>, while still <strong>reducing campaign volume by 60%</strong>.
+</div>
+
+<h4>Why This Matters</h4>
+
+<table class="strategy-table">
+  <thead>
+    <tr>
+      <th>Strategy</th>
+      <th>Customers Targeted</th>
+      <th>Share of Likely Buyers Captured</th>
+      <th>Risk / Opportunity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Only Persona_Flag</strong></td>
+      <td>617</td>
+      <td>Strong high-propensity segment</td>
+      <td>May exclude “near-miss” buyers &rarr; <em>risk of lost sales</em></td>
+    </tr>
+    <tr>
+      <td><strong>Gains-Curve Optimized</strong></td>
+      <td>896</td>
+      <td>&asymp; 80% of all likely buyers</td>
+      <td><strong>Best balance of cost and impact</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Entire Population</strong></td>
+      <td>2,240</td>
+      <td>100%</td>
+      <td>Overspending on low-propensity customers</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
 
 ---
 
-## Dashboard & Reporting
+<!-- ### Final Recommendation -->
 
-An **interactive Looker Studio dashboard** was designed to help both leadership and call center teams monitor campaign performance and visualize insights in real time.
+<div class="recommendation-box">
 
-### Section 1 – Campaign KPIs
-- Total Gold Memberships purchased in prior year  
-- Average number of purchases per member  
-- Average spend per member  
-- Calculated profit per membership tier  
-- Insight: Demonstrated that membership status was a stronger predictor of increased spending than other demographic factors.
+<p class="recommendation-title">
+  🎯 <strong>Strategic Outreach Recommendation</strong>
+</p>
 
-### Section 2 – Buyer Profile
-- Ranked features influencing a positive response  
-- Share of total customer base matching high-likelihood features  
+<p>
+To maximize both campaign ROI and conversion impact, outreach should focus on the 
+<strong>top 896 customers</strong> as identified by the Gains-Curve analysis.
+</p>
 
-### Section 3 – Predicted Results & Real-Time Progress
-- Gauge chart displaying predicted vs. actual memberships sold  
-- Linked spreadsheet for live call center tracking  
-- Dynamic revenue, discount, and profit calculations  
+<ul>
+  <li>Large enough to capture <strong>~80% of likely buyers</strong></li>
+  <li>Small enough to <strong>avoid wasted effort & budget</strong></li>
+  <li>Backed by predictive modeling and conversion probability</li>
+</ul>
 
----
+<p class="recommendation-bottom">
+This ensures that marketing spend scales in proportion to conversion potential — 
+<strong>aligning investment with expected return.</strong>
+</p>
 
-## Key Takeaway
-By combining data-driven insights with campaign strategy, this model enables the marketing team to **target customers with the highest likelihood to buy**, reduce wasted spend, and accurately **forecast revenue and campaign ROI**.
+</div>
+
 
 ---
 
